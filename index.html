@@ -1,15 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My first webpage</title>
-    <style>
-      body {margin: 20%; font-family: sans-serif; font-size: 1.5em;}
-      h1 {letter-spacing: 0.05em;}
-      p {color: grey;}
-    </style>
-  </head>
-  <body>
-    <h1>My first webpage</h1>
-    <p>I'm so smart</p>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Music Lounge</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b757a80cd9.js" crossorigin="anonymous"></script>
+<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery, Popper.js, Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+	<header>
+			<h1>Music Lounge</h1>
+			<nav>
+				<ul>
+				    <!--  <li><a type="button" class="btn btn-outline-primary" href="#">Home</a></li>
+					<li><a type="button" class="btn btn-outline-dark">Rooms</a></li> 
+					<li><a type="button" class="btn btn-outline-dark" href="aboutus.html">About us</a></li>
+					<li><a type="button" class="btn btn-outline-dark">Contact us</a></li> -->
+					<a class="btn btn-outline-warning" href="#" role="button">Home</a>
+					<button type="button" class="btn btn-outline-success">Rooms</button>
+					<a class="btn btn-outline-info" href="aboutus.html" role="button">About us</a>
+					<button type="button" class="btn btn-outline-dark">Contact us</button> 
+					<!-- <a type="button" class="btn btn-outline-primary" href="#">Home</a> -->
+					<!-- <a type="button" class="btn btn-outline-dark" href="aboutus.html">About us</a> -->
+
+				</ul>
+			</nav>
+	</header>
+
+	<main>
+		<p class="paragrafo">
+		<p style="text-align:center;"> Don't work alone anymore. Pick your music of choice and enter a room with other people to work together! </p>
+		<p style="text-align:center;"> Study and work has never been funnier, enter the room and explore the available activities with friends and people all over the world </p>
+		</p>
+		<section class="row morepadding">
+			<section class="col-4">
+				<h3>Lofi</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+			<section class="col-4">
+				<h3>Hip Pop/Pop</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+			<section class="col-4">
+				<h3>Rock</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+			<section class="col-4">
+				<h3>Classical</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+			<section class="col-4">
+				<h3>Jazz</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+			<section class="col-4">
+				<h3>Ambiental</h3>
+				<button class="btn btn-primary" type="submit">ENTER HERE</button>
+			</section>
+		</section>
+		<i class="privacy">
+		<i> Your Privacy will always be our main priority, you can choose to activate or not your microphone and webcam and who to be with in the room </i>
+		</i>
+		<!-- AddToAny BEGIN -->
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_tumblr"></a>
+				<a class="a2a_button_pinterest"></a>
+				<a class="a2a_button_telegram"></a>
+			</div>
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+		<!-- AddToAny END -->
+	</main>
+</body>
+
 </html>
